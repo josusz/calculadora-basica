@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+form{
+  border: 2px solid #0000;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  background-color: #ffffff;
+}
+
+input{
+  font-family: "Consolas", "Lucida Console", Monaco, monospace;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: end;
+  color: #7e7e7e;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.resultado{
+  margin-bottom: 30px;
+  text-align: center;
+  color: #0095ff;
+}
+
+.valores{
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.btn-somar, .btn-subtrair, .btn-dividir, .btn-multiplicar{
+  font-size: 25px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #0095ff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-limpar{
+  margin-left: 30px;
+  font-size: 25px;
+  border-radius: 10px;
+  color: #ffffff;  
+  background-color: #ff0000;
+  border: none;
+  cursor: pointer;
+}  

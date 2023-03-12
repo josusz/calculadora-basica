@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\css\style.css">
+    <script src=".\js\script.js"></script>
+    <title>Calculadora Básica WEB</title>
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/3/35/Calculator_Flat_Icon_Vector.svg">
+</head>
+
+<body>
+    <form> 
+        <input id="resp" class="resultado" placeholder="Resultado" readonly value="0">
+
+        <div class="valores">
+            <input type="number" id="num1" placeholder="Digite o 1º número">
+            <input type="number" id="num2" placeholder="Digite o 2º número">
+        </div>
+
+        <div class="botoes">
+            <button type="button" class="btn-somar" onclick="somar()" >&#8853</button>
+            <button type="button" class="btn-subtrair" onclick="subtrair()"> &#8854</button>
+            <button type="button" class="btn-dividir" onclick="dividir()">&#8856</button>
+            <button type="button" class="btn-multiplicar" onclick="multiplicar()">&#8855</button>
+            <button type="button" class="btn-limpar" onclick="limpar()">CE</button>
+        </div>
+    </form>
+</body>
+</html>
