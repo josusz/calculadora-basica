@@ -12,7 +12,7 @@ form{
   border: 2px solid #0000;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 0px rgba(0,0,0,0.2);
   background-color: #ffffff;
 }
 
@@ -49,6 +49,7 @@ input{
   background-color: #0095ff;
   border: none;
   cursor: pointer;
+  box-shadow: 0px 5px 0px #0077cb;;
 }
 
 .btn-limpar{
@@ -59,4 +60,10 @@ input{
   background-color: #ff0000;
   border: none;
   cursor: pointer;
-}  
+  box-shadow: 0px 5px 0px #d20000;
+}
+
+.btn-somar:hover, .btn-subtrair:hover, .btn-dividir:hover, .btn-multiplicar:hover, .btn-limpar:hover{
+  box-shadow: 0px 0px 0px;
+  transform: translateY(5px);
+}
